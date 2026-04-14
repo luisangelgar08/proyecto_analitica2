@@ -1,0 +1,28 @@
+# Base numérica y análisis
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.6
+openpyxl>=3.1
+
+# Visualización y notebooks
+matplotlib>=3.8
+jupyterlab>=4.2
+notebook>=7.2
+ipykernel>=6.29
+tqdm>=4.66
+
+# Imagen médica / volúmenes
+SimpleITK>=2.5.3
+
+# Deep learning
+# OJO: torch y torchvision mejor instalarlos aparte según CUDA
+# torch
+# torchvision
+
+# Router / embeddings / búsqueda
+faiss-cpu>=1.8.0
+timm>=1.0.7
+
+# Utilidades
+PyYAML>=6.0.2
