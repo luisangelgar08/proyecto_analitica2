@@ -1,2 +1,57 @@
 avances/
 source/
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos
+.venv/
+venv/
+env/
+ENV/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Modelos y pesos
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.h5
+*.joblib
+*.pkl
+
+# Salidas y artefactos pesados
+outputs/
+logs/
+tmp/
+cache/
+
+# Datos pesados locales
+data/source/
+data/working/
+
+# Mantener manifests pequeños versionados
+!data/manifests/
+!data/manifests/*.csv
+!data/manifests/*.json
+
+# Archivos médicos pesados
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+*.zraw
+
+# Comprimidos
+*.zip
+*.tar
+*.gz
+*.7z
