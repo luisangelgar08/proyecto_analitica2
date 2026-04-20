@@ -24,7 +24,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 SEED = 42
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-ALPHA = 0.02              # luego puedes probar 0.01, 0.02, 0.05
+ALPHA = 0.02              
 N_EXPERTS = 5
 EPOCHS = 80
 BATCH_SIZE = 128
